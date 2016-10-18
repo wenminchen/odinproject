@@ -1,0 +1,190 @@
+/* Border box reset */
+* {   
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;      
+       -moz-box-sizing: border-box;           
+            box-sizing: border-box; 
+}
+
+/* general */
+body{
+	background-color: #e0e0e0;
+	color: #222;
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+hr{
+	border: 1px solid #e0e0e0;
+}
+
+.clear-left{
+	clear: left;
+}
+
+/* header */
+header {
+	background-color: #fff;
+	padding: 10px 40px;
+	height: 50px;
+}
+
+header div{
+	position: absolute;
+	top: 10px;
+}
+
+header div:nth-child(2){
+	left: 200px;
+}
+
+header div:last-child{
+	right: 40px;
+}
+
+.logo {
+	background: url(images/youTube_logo_small.png) no-repeat;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	width: 72px;
+	display: inline-block;
+}
+
+header .caret{
+	font-size: 9px;
+}
+
+form{
+	margin: 3px 100px 3px 80px;
+}
+
+input[type="text"] {
+    width: 560px;
+    height: 30px;
+}
+
+button {
+	width: 65px;
+	height: 30px;
+}
+
+.fa{
+	color: #777;
+	font-size: 13px;
+}
+
+/* content */
+#container {
+	margin: 0 auto 10px;
+	overflow: hidden;
+}
+/* main content */
+#main{
+	float: left;
+	width: 640px;
+	margin: 10px 10px 0 100px;
+}
+
+.description-title, .description-more{
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+.description-title{
+	font-size: 12px;
+	padding: 10px;
+}
+
+.description-title h1{
+	font-size: 21.6px;
+	font-weight: none;
+	padding-bottom: 5px;
+}
+
+.description-title img{
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+.description-title li{
+	font-size: 12px;
+	padding: 10px 20px 0 0;
+}
+
+.description-more p {
+	font-size: 13px;
+	padding: 15px;
+}
+
+.more {
+	font-size: 12px;
+	margin: 0;
+	padding: 0 5px;
+	text-transform: uppercase;
+	text-align: center;
+} 
+
+/* sidebar */
+#sidebar{
+	background-color: #fff;
+	float: left;
+	margin: 10px auto;
+	padding: 0 15px 10px;
+	width: 425px;
+}
+
+#sidebar div {
+	margin: 15px 0;
+}
+
+#sidebar h5{
+	padding-top: 10px;
+}
+
+#sidebar img{
+	float: left;
+	margin-right: 10px;
+}
+
+#sidebar p{
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+#sidebar p span{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/* footer */
+footer{
+	background-color: #fff;
+	clear: both;
+	padding: 15px 40px;
+}
+
+#footerNav li {
+	color: #777;
+	font-size: 13px;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#footerNav ul:first-child{
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#footerNav ul:last-child li{
+	font-size: 12px;
+}
