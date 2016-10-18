@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Odin Project - Mint contact form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+	<div>
+		<a class="logo" href="#"></a>
+	</div>
+	<nav class="mainNav">
+		<ul>
+			<li><a href="#">Sign Up</a></li>
+			<li><a href="#">Log in</a></li>
+	</nav>
+</header>
+<section id="container">
+	<h1>Create a new account</h1>	
+	<section id="main">
+		<form>
+			<fieldset class="account-info">
+    			<label>
+	      			Email Address
+	      			<input type="email" name="email-address">
+    			</label>
+    			<label>
+      				Confirm Email
+      				<input type="email" name="email-confirm">
+    			</label>
+    			<label>
+    				Country
+    				<select name="country">
+		  				<optgroup label="Available Now:">
+		  					<option value="United States">United States</option>
+							<option value="Canada">Canada</option>
+						<optgroup label="Not yet available, working on it:">
+		  					<option value="China">China</option>
+		  					<option value="France">France</option>
+		  					<option value="Israel">Israel</option>
+							<option value="Mexico">Mexico</option>
+					</select>
+    			</label>
+    			<label>
+      				Zip Code
+      				<input type="number" name="zipcode">
+    			</label> 
+    			<label>
+      				Password
+      				<input type="password" name="pword">
+    			</label>
+    			<label>
+      				Confirm Password
+      				<input type="password" name="pword-confirm">
+    			</label>      			
+  			</fieldset>
+  			<fieldset class="account-action">
+    			<label>
+      				<input type="checkbox" name="agreement"> Yes, I agree to the Mint <a href="#">Terms of Use</a>.
+    			</label>
+    			<input class="btn" type="submit" name="submit" value="Sign Up">	
+  			</fieldset>
+		</form>
+	</section><!-- end #main -->
+	<aside id="sidebar">
+		<div>
+			<h3>Why you'll love it</h3>
+			<ul>
+				<li>See all your accounts in one place</li>
+				<li>Set a budget and pay down your debt</li>
+				<li>Find the best ways to grow your money</li>
+				<li>Stay safe and secure</li>
+			</ul>
+		</div>
+	</aside>
+	<!--<div class="clear"></div> //not used; used overflow: hidden in css instead-->
+</section><!-- end #container -->
+<footer>
+	<nav id="footerNav">
+		<ul>
+			<li>Support Community</li>
+			<li>Terms of Use</li>
+			<li>Privacy</li>
+			<li>Legal and Trademark Notices</li>
+			<li>About Intuit</li>
+		</ul>
+	</nav>
+	<div class="security">
+		<ul>
+			<li class="norton"></li>
+			<li class="truste"></li>
+		</ul>
+	</div>
+</footer>
+</body>
+</html>
