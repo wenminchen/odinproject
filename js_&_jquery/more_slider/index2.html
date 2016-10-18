@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Slider with thumbnail</title>
+	<link rel="stylesheet" href="css/slider2.css">
+</head>
+<body>
+<div id="thumb-wrapper">
+	<ul id="thumb-list">
+		<li><img src="images/thumb01.jpg" alt="thumb for abstract 1"></li>
+		<li><img src="images/thumb02.jpg" alt="thumb for abstract 2"></li>
+		<li><img src="images/thumb03.jpg" alt="thumb for abstract 3"></li>
+		<li><img src="images/thumb04.jpg" alt="thumb for abstract 4"></li>
+		<li><img src="images/thumb05.jpg" alt="thumb for abstract 5"></li>
+		<li><img src="images/thumb01.jpg" alt="thumb for abstract 1"></li>
+		<li><img src="images/thumb02.jpg" alt="thumb for abstract 2"></li>
+		<li><img src="images/thumb03.jpg" alt="thumb for abstract 3"></li>
+		<li><img src="images/thumb04.jpg" alt="thumb for abstract 4"></li>
+		<li><img src="images/thumb05.jpg" alt="thumb for abstract 5"></li>
+	</ul>
+	<a class="thumb-prev" href="#">back</a>
+	<a class="thumb-next" href="#">next</a>
+</div><!-- end #thumb-wrapper -->
+
+<div id="slider-wrapper">	
+	<div id="slider">
+		<img id="1" src="images/abstract01.jpg" alt="abstract 1">
+		<img id="2" src="images/abstract02.jpg" alt="abstract 2">
+		<img id="3" src="images/abstract03.jpg" alt="abstract 3">
+		<img id="4" src="images/abstract04.jpg" alt="abstract 4">
+		<img id="5" src="images/abstract05.jpg" alt="abstract 5">
+	</div><!-- end #slider -->
+	<a href="#" class="prev" onClick="prev(); return false;">Previous</a>
+	<a href="#" class="next" onClick="next(); return false;">Next</a>
+</div><!-- end #sliderWrapper -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/slider2.js"></script>
+</body>
+</html>

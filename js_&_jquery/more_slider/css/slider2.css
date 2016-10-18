@@ -1,0 +1,69 @@
+#thumb-wrapper{
+	margin: 25px auto;
+	width: 870px;
+}
+
+#thumb-list > li {
+	display: inline-block;
+	list-style: none;
+}
+
+.thumb-next, .thumb-prev { 	
+	color: #666; 	
+	display: inline-block; 	
+	font-size: 9px; 		
+	letter-spacing: 2px; 	
+	line-height: 8px; 
+	position: absolute; 	
+	top: 60px; 
+	text-decoration: none;
+	text-transform: uppercase; 	
+	z-index: 9999; 	
+}
+
+.thumb-next { 	
+	right: 10rem; 	
+	background: url('../images/arrow-right.png') no-repeat right center; 
+	padding-right: 2rem; 
+}
+
+.thumb-prev { 	
+	left: 10rem; 	
+	background: url('../images/arrow-left.png') no-repeat left center; 
+	padding-left: 2rem; 
+}
+
+#slider-wrapper{
+	margin: 0 auto;
+	width: 693px;
+}
+
+#slider{
+	height: 462px;
+	width: 693px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+/* not sure why float left is necessary here and the dimensions */
+#slider > img{
+	display: none;
+	float: left;
+	height: 462px;
+	width: 693px;
+}
+
+a.prev, a.next{
+	background-color: #F0F0F0;
+	color: #666;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.prev{
+	float: left;
+}
+
+.next{
+	float: right;
+}
