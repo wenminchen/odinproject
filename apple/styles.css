@@ -1,0 +1,158 @@
+/* resets */
+* {   
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;      
+       -moz-box-sizing: border-box;           
+            box-sizing: border-box; 
+}
+
+/* general */
+body{
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 27px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*header*/
+header{
+	background-color: #656565;
+	color: #bababa;
+	font-size: 16px;
+	height: 45px;
+}
+
+#mainNav ul{
+	margin: 0 auto;
+	padding: 8px;
+	width: 970px;
+}
+
+#mainNav li{
+	display: inline-block;
+	padding-right: 60px;
+}
+
+#mainNav li:last-child{
+	padding-right: 0;
+}
+
+#mainNav a{
+	color: #fff;
+}
+
+#mainNav a:hover{
+	color: #bababa;
+}
+
+/*content*/
+#featured{
+	padding: 10px 0;
+}
+
+#featured h1{
+	font-size: 65px;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: center;
+}
+
+#featured p{
+	font-size: 22px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+#featured a{
+	color: #08C;
+	text-decoration: none;
+}
+
+#featured a:hover{
+	color: #333;
+}
+
+#featured img{
+	height: 312px;
+	margin: 20px 0 30px;
+	width:1280px;
+}
+
+#promo .ipad{
+	background-image: url("https://raw.githubusercontent.com/royshouvik/applehome/master/images/promo_change_large.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	background-size: 639px 200px;
+	width: 312px;
+	height: 200px;
+}
+
+#promo .iphone{
+	background-image: url("https://raw.githubusercontent.com/royshouvik/applehome/master/images/promo_iphone6_large.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	background-size: 639px 200px;
+	width: 312px;
+	height: 200px;
+}
+
+#promo .iwatch{
+	background-image: url("https://raw.githubusercontent.com/royshouvik/applehome/master/images/promo_watch_large.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	background-size: 639px 200px;
+	width: 312px;
+	height: 200px;
+}
+
+#promo .imac{
+	background-image: url("https://raw.githubusercontent.com/royshouvik/applehome/master/images/promo_imac_large.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	background-size: 639px 200px;
+	width: 312px;
+	height: 200px;
+}
+
+/*footer*/
+footer {
+	font-size: 10px;
+	margin: 10px auto;
+	width: 970px;
+}
+
+footer a{
+	color: #333;
+}
+
+footer li{
+	padding-right: 5px;
+	border-right: 1px solid #e0e0e0;
+	line-height: 10px;
+}
+
+footer .last{
+	padding: 0;
+	border-right: none;
+}
+
+
+.leftFooter{
+	float: left;
+}
+
+.rightFooter{
+	float: right;
+}
